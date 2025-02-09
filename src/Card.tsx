@@ -1,9 +1,7 @@
-import {JSX, useEffect, useRef, useState} from "react";
-import {AnimatePresence, easeInOut, motion} from "framer-motion";
+import {JSX, useState} from "react";
+import {AnimatePresence, motion} from "framer-motion";
 import stamp from "./assets/stamp.png";
 import kiss from "./assets/kiss.gif";
-
-import {DvdScreensaver, useDvdScreensaver} from 'react-dvd-screensaver'
 
 function Card(): JSX.Element {
     const [exitCard, setExitCard] = useState(false);
