@@ -109,7 +109,7 @@ function Card(): JSX.Element {
                                     </div>
                                     <h1 className="text-[#E74C3C] text-4xl md:text-6xl font-extrabold"
                                         style={{lineHeight: 1.2}}>Yay! 🎉</h1>
-                                    <p className="text-lg text-[#E74C3C]">Ich liebe dich! ❤️</p>
+                                    <p className="text-lg text-[#E74C3C]">Ich liebe dich! ❤️ <br />Du darfst nun das Paket öffnen! <3</p>
                                 </div>
                             </motion.div>
                         )}
